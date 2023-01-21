@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>LOGIN PAGE </title>
+</head>
+<body>
+    <h1>LOGIN PAGE </h1>
+    <form action="">
+        <!-- headings --> 
+        <div class="headingsContainer">
+            <h4>Sign in </h4>
+            <p>Sign in with your valid username and password</p>
+        </div>
+
+
+        <!-- inputs -->
+        <div class="inputcontainer">
+            <!-- username --> 
+            <label for="username">Your username</label>
+            <input type="text" placeholder="Enter username" name ="username" required>
+
+            <br><br>
+
+            <!-- password -->
+            <label for="password">Your password</label>
+            <input type="password" placeholder="Enter password" name ="password" required>
+            
+            <br><br>
+
+            <!-- Remember me and forgot password-->
+            <div class="block">
+                <label>
+                    <input type="checkbox" checked="checked" name="Remember"> Remember me 
+                </label>
+                <p class="forgotpswd"><a href="#">Forgot password</a> </p>
+            </div>
+
+            <br>
+            
+            <!-- Submit button -->
+            <button type=""submit">Login</button>
+
+            <!-- Link for sign up-->
+            <p class="register">Not registered ? <a href="#"> You can register here!</a></p>
+        </div>
+    </form>
+</body>
+</html>

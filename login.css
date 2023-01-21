@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-radial-gradient(to right, #d1f00a , #159957);
+    background:  linear-gradient(to right, #d1f00a , #159957);
+    color:whitesmoke
+}
+
+h1{
+    text-align:center;
+}
+
+form{
+    width: 35rem;
+    margin: auto;
+    color: whitesmoke;
+    backdrop-filter: blur(16px) saturate(180px);
+    -webkit-backdrop-filter: blur(16px) saturate(180px);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 10px 0 ;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color:#062c0d ;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0 ;
+    width: 100%;
+    font-size: 18px;
+}
+ button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+ }
+
+ .headingsContainer{
+    text-align: center;
+ }
+
+ .inputcontainer{
+    padding: 16px;
+ }
+
+ 
+
