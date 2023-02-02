@@ -1,0 +1,76 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-radial-gradient(to right, #08d0ef , #159957);
+    background:  linear-gradient(to right, #08d0ef , #159957);
+    color:whitesmoke
+}
+
+h4{
+    text-align:center;
+}
+
+h3{
+    text-align: center;
+}
+
+.container {
+    position: middle;
+    width: 100%;
+  }
+  
+  .image {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+    
+  }
+  
+ 
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+ 
+  
+form{
+    width: 50%;
+    margin: auto;
+    color: whitesmoke;
+    backdrop-filter: blur(16px) saturate(180px);
+    -webkit-backdrop-filter: blur(16px) saturate(180px);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+button{
+    background-color:#062c0d ;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0 ;
+    width: 50%;
+    font-size: 18px;
+   
+}
+ button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+ }
+
